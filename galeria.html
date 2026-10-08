@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galería - Taller Arias</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+<nav>
+<a href="index.html" class="brand"><i class="fas fa-wrench"></i>TALLER <em>ARIAS</em></a>
+<ul class="menu" id="menu">
+<li><a href="index.html">Inicio</a></li>
+<li><a href="servicios.html">Servicios</a></li>
+<li><a href="galeria.html" class="activo">Galería</a></li>
+<li><a href="nosotros.html">Nosotros</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+</ul>
+<div class="burger" id="burger"><i class="fas fa-bars"></i></div>
+</nav>
+</header>
+
+<section class="page-hero">
+<h1>Así <em>trabajamos</em></h1>
+<p>Un vistazo a nuestro taller y a los trabajos que realizamos a diario.</p>
+</section>
+
+<section class="galeria">
+<div class="wrap">
+<div class="grid-g">
+<div class="foto"><img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80" alt="Reparación"><div class="capa"><h4>Reparación de Motor</h4></div></div>
+<div class="foto"><img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=80" alt="Herramientas"><div class="capa"><h4>Equipo Profesional</h4></div></div>
+<div class="foto"><img src="camaro.jpeg" alt="Elevador"><div class="capa"><h4>Mantenimiento</h4></div></div>
+<div class="foto"><img src="turismo.jpeg" alt="Diagnóstico"><div class="capa"><h4>Diagnóstico Electrónico</h4></div></div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="wrap">
+<div class="foot-grid">
+<div class="foot-col">
+<h4>Taller Arias</h4>
+<p>Más de 20 años cuidando tu vehículo con profesionalismo y honestidad.</p>
+<div class="redes">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+<div class="foot-col">
+<h4>Enlaces</h4>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="servicios.html">Servicios</a></li>
+<li><a href="galeria.html">Galería</a></li>
+<li><a href="nosotros.html">Nosotros</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+</ul>
+</div>
+<div class="foot-col">
+<h4>Servicios</h4>
+<ul>
+<li><a href="servicios.html">Cambio de aceite</a></li>
+<li><a href="servicios.html">Reparación de motor</a></li>
+<li><a href="servicios.html">Sistema eléctrico</a></li>
+<li><a href="servicios.html">Frenos y suspensión</a></li>
+<li><a href="servicios.html">Aire acondicionado</a></li>
+</ul>
+</div>
+<div class="foot-col">
+<h4>Horario</h4>
+<p>Lunes a Viernes<br>8:00 AM – 7:00 PM</p>
+<p>Sábados<br>9:00 AM – 3:00 PM</p>
+</div>
+</div>
+<div class="copy">© 2025 Taller Arias. Todos los derechos reservados.</div>
+</div>
+</footer>
+
+<a href="https://wa.me/525512345678" class="wa" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+<script>
+const burger=document.getElementById('burger');
+const menu=document.getElementById('menu');
+burger.addEventListener('click',()=>menu.classList.toggle('abierto'));
+</script>
+
+</body>
+</html>
